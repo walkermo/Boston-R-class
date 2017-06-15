@@ -59,7 +59,7 @@ plot(mtcars$hp, mtcars$mpg, xlab = "horsepower", ylab = "mpg",
      main = "MPG vs horsepower")
 
 ### lets make the points a specific color
-plot(hp ~ mpg, data = mtcars, xlab = "horsepower", ylab = "mpg",
+plot(mtcars$hp, mtcars$mpg, xlab = "horsepower", ylab = "mpg",
      main = "MPG vs horsepower", col = "Red")
 
 #### let's adjust the shapes of the points
