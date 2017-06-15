@@ -98,7 +98,7 @@ View(vacants)
 
 ### to calculate the total number of vacants by year across
 ### the city, use aggregate
-total_by_year <- aggregate(.~ Year, vacants[c("Year", "Number")], sum)
+total_by_year <- aggregate(Number ~ Year, vacants, sum)
 
 #### how would you make a barplot of total_by_year?
 
